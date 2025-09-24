@@ -3,15 +3,14 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.JLabel;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.Border;
+import javax.swing.JButton;
 
 public class Main{
     public static void main(String[] args){
-        JLabel etiqueta = new JLabel();
-        etiqueta.setText("Hola mundo");
 
+        new miVentana();
 
-
-        miVentana ventana = new miVentana();
-        miVentana.add(etiqueta);
     }
 }

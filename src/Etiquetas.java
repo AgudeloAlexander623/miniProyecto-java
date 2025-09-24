@@ -1,7 +1,9 @@
-import javax.swing.JLabel;
+/*import javax.swing.*;
 
 public class Etiquetas {
     Etiquetas(){
     }
 
 }
+
+*/
