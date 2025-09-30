@@ -10,7 +10,8 @@ import javax.swing.JButton;
 public class Main{
     public static void main(String[] args){
 
-        new miVentana();
+        JFrame ventanaPirncipal = new JFrame();
+        JFrame venatanJuego = new JFrame();
 
     }
 }
