@@ -7,11 +7,15 @@ import javax.swing.JPanel;
 import javax.swing.border.Border;
 import javax.swing.JButton;
 
-public class Main{
-    public static void main(String[] args){
 
-        JFrame ventanaPirncipal = new JFrame();
-        JFrame venatanJuego = new JFrame();
+public class Main {
+    public static void main(String[] args) {
+        //llamamos la ventana principal
+        ventanaPrincipal ventanaPrincipal = new ventanaPrincipal();
 
+        //llamamos la ventana del juego
+        VentanaJuego ventanaJuego = new VentanaJuego();
     }
 }
+
+
